@@ -1,0 +1,11 @@
+  {
+    "name": "whichhold",
+    "version": "0.1",
+    "description": "Indicate or filter houses based on holdnees (freehold/leashold)",
+    "content_scripts": [{
+    	"js": ["jquery.min.js", "whichhold.js"],
+    	"matches": ["https://www.rightmove.co.uk/property-for-sale/*"]
+    }],
+    "manifest_version": 2,
+    "permissions": ["storage"]
+  }
